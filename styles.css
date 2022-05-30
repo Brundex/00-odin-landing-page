@@ -4,7 +4,7 @@ body {
     background-color: #1F2937;
     font-family: Roboto, sans-serif;
     padding-left: 200px;
-    padding-right: 250px;
+    padding-right: 200px;
     margin: 0;
 }
 
@@ -42,4 +42,17 @@ a {
 
 .hero-div{
     display: flex;
+    justify-content: center;
+    padding-top: 125px;
+    color: white;
+}
+
+.hero-main-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.right-element{
+    width: 100%;
 }
