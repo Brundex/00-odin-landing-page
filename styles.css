@@ -55,14 +55,16 @@ a {
 }
 
 .hero-main-text {
+    text-align: left;
     margin-top: 0;
-    margin-bottom: 6px;
+    margin-bottom: 16px;
     color: #f9faf8;
     font-size: 48px;
     font-weight: bolder;
 }
 
 .hero-subtext {
+    text-align: left;
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -71,8 +73,8 @@ a {
     padding-right: 75px;
 }
 .right-element{
-    min-width: 600px;
-    max-width: 600px;
+    width: 50%;
+    flex-shrink: 0;
 }
 
 button {
