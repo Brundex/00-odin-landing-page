@@ -3,8 +3,10 @@
 body {
     font-family: Roboto, sans-serif;
     margin: 0;
+    overflow: scroll;
 }
 
+/* Navbar start */
 .logo {
     color: #f9faf8;
     font-size: 24px;
@@ -24,8 +26,7 @@ body {
 
 
 /* Get rid of link and list default styles */
-ul {
-    
+.header-right {  
     display: flex;
     gap: 24px;
     justify-content: space-between;
@@ -39,6 +40,10 @@ a {
     text-decoration: none;
     color: #e5e7eb;
 }
+
+/* Navbar end */
+
+/* hero div start */
 
 .hero-div{
     background-color: #1F2937;
@@ -63,10 +68,68 @@ a {
 }
 
 .left-elements{
-    flex: 1;
     padding-right: 75px;
 }
 .right-element{
-    flex: 1;
-    width: 50%;
+    min-width: 600px;
+    max-width: 600px;
 }
+
+button {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 32px;
+}
+
+/* hero div end */
+
+/* second layer (Some random information) */
+.second-layer {
+    height: 500px;
+}
+
+h1  {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.wrapper {
+    padding: 50px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 200px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.square {
+    display: flex;
+    align-self: center;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #3882F6;
+    border-radius: 16px;
+    height: 150px;
+    width: 150px;
+}
+
+.text {
+    color: #95979b;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 18px;
+
+}
+/* end second layer */
