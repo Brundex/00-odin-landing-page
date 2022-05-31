@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-    background-color: #1F2937;
     font-family: Roboto, sans-serif;
-    padding-left: 200px;
-    padding-right: 200px;
     margin: 0;
 }
 
@@ -16,6 +13,9 @@ body {
 }
 
 .header {
+    background-color: #1F2937;
+    padding-left: 200px;
+    padding-right: 200px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -41,22 +41,32 @@ a {
 }
 
 .hero-div{
+    background-color: #1F2937;
+    padding: 150px 200px 100px;
     display: flex;
     justify-content: center;
-    padding-top: 125px;
+    height: 300px;
     color: white;
 }
 
 .hero-main-text {
+    margin-top: 0;
+    margin-bottom: 6px;
     color: #f9faf8;
     font-size: 48px;
     font-weight: bolder;
 }
 
+.hero-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .left-elements{
-     width: 50%;
-     padding-right: 75px;
+    flex: 1;
+    padding-right: 75px;
 }
 .right-element{
+    flex: 1;
     width: 50%;
 }
