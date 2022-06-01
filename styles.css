@@ -90,7 +90,7 @@ button {
 /* hero div end */
 
 /* second layer (Some random information) */
-.second-layer {
+.squares-layer {
     height: 500px;
 }
 
@@ -135,3 +135,34 @@ h1  {
 
 }
 /* end second layer */
+
+.quote-layer {
+    display: flex;
+    align-items: center;
+    height: 500px;
+    background-color: #e5e7eb;
+    padding: 0px 300px;
+}
+
+.quote-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    align-self: center;
+}
+
+.author {
+    text-align: right;
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
