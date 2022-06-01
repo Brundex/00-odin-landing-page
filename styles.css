@@ -77,7 +77,7 @@ a {
     flex-shrink: 0;
 }
 
-button {
+.sign-up {
     font-size: 18px;
     font-weight: bold;
     color: white;
@@ -136,6 +136,7 @@ h1  {
 }
 /* end second layer */
 
+/* start quote layer */
 .quote-layer {
     display: flex;
     align-items: center;
@@ -166,3 +167,65 @@ h1  {
     color: #1F2937;
 }
 
+/*end quote layer*/
+
+/*start call to action layer */
+
+.call-action {
+    display: flex;
+    height: 325px;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    background-color: #3882F6;
+    padding: 50px 125px;
+    border-radius: 10px;
+}
+
+.call-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-left-top {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call-left-bottom {
+    color: #ddd;
+    font: 18px;
+    font-weight: lighter;
+}
+
+.call-sign-up {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #3882F6;
+    border-style: solid;
+    border-color: white;
+    border-radius: 8px;
+    border-width: 3px;
+    padding: 0px 36px;
+}
+/* end call to action layer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 100px;
+}
+
+.footer-text {
+    color: white;
+    font-size: 18px;
+}
